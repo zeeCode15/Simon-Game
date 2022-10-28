@@ -106,7 +106,10 @@ $(".btn").click(function(){
 $(document).keypress(function(){
     if(level==1)
         nextSequence();
- });
+    });
     
-   
-
+    
+$("h1").click(function(){
+    if(level==1)
+    nextSequence();
+});

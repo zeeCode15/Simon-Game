@@ -101,19 +101,12 @@ function handler(clicked)
 $(".btn").click(function(){
     handler(this.id);
 });
+
+
 $(document).keypress(function(){
     if(level==1)
         nextSequence();
-    });
+ });
     
-    
-document.querySelector("body").addEventListener('touchstart', (event) => {});
-ontouchstart = (event) => {
-        if(level==1 ){
-            setTimeout(function(){
-                nextSequence();
-
-            },1000);
-        }
- };
+   
 
